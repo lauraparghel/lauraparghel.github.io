@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+
+// Import Variables
+@import 'variables';
+
+// Import Bootstrap
+@import 'bootstrap';
+
+// Import Global Theme Styles
+@import 'global';
+@import 'utilities';
+
+// Import Custom Component Styles
+@import 'components/feature';
+@import 'components/profile';
+
+.image-zoom {
+  cursor: pointer;
+}
+
+.transition {
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
